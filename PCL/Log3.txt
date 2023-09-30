@@ -1,0 +1,345 @@
+[14:30:47.532] [Start] 程序版本：Release 2.6.7（302）
+[14:30:47.532] [Start] 识别码：E2E9-F73F-6A56-74AD
+[14:30:47.532] [Start] 程序路径：C:\FKOS\Plain Craft Launcher 2.exe
+[14:30:47.548] [Start] 第一阶段加载用时：250 ms
+[14:30:47.769] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[14:30:47.769] [Start] 第二阶段加载用时：203 ms
+[14:30:47.800] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[14:30:48.338] [System] 窗口已置顶，位置：(235, 57), 810 x 638
+[14:30:48.354] [Animation] 动画线程开始
+[14:30:48.354] [Start] 第三阶段加载用时：141 ms
+[14:30:48.354] [Start] 加载 DLL：Json
+[14:30:48.354] [System] 获取资源：Json
+[14:30:48.369] [Page] 主页自定义数据来源：联网缓存文件
+[14:30:48.369] [Launch] Minecraft 文件夹：E:\minecraft\
+[14:30:48.385] [Loader] 加载器 自定义主页获取 状态改变：Loading
+[14:30:48.401] [Net] 获取网络结果：https://cdn.wearclub.online/PCL/Custom.xaml.ini，超时 10000ms
+[14:30:48.495] 联网获取自定义主页版本失败：获取结果失败，未能解析此远程名称: 'cdn.wearclub.online'（https://cdn.wearclub.online/PCL/Custom.xaml.ini）
+你的网络环境不佳，导致难以连接到服务器。请检查网络，多重试几次，或尝试使用 VPN。
+————————————
+详细错误信息：
+→ 未能解析此远程名称: 'cdn.wearclub.online'
+   在 PCL.ModNet.NetGetCodeByRequestOnce(String Url, Encoding Encode, Int32 Timeout, Boolean IsJson, String Accept)
+   在 PCL.PageLaunchRight.OnlineLoaderSub(LoaderTask`2 Task)
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 PCL.ModNet.NetGetCodeByRequestOnce(String Url, Encoding Encode, Int32 Timeout, Boolean IsJson, String Accept)
+错误类型：System.Net.WebException
+[14:30:48.495] [Page] 无法检查联网自定义主页版本，将直接下载，检查源：https://cdn.wearclub.online/PCL/Custom.xaml.ini
+[14:30:48.495] [Net] 获取网络结果：https://cdn.wearclub.online/PCL/Custom.xaml，超时 10000ms
+[14:30:48.526] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
+[14:30:48.542] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
+[14:30:48.588] [Animation] 两个动画帧间隔 219 ms
+[14:30:48.635] [Page] 实例化：加载自定义主页 UI，最终内容长度：5292
+[14:30:48.840] [Skin] 载入头像成功：Loader Skin Legacy
+[14:30:49.013] [Net] 获取网络结果：https://cdn.wearclub.online/PCL/Custom.xaml，超时 30000ms
+[14:30:49.013] 联网下载自定义主页失败（https://cdn.wearclub.online/PCL/Custom.xaml）：获取结果失败，未能解析此远程名称: 'cdn.wearclub.online'（https://cdn.wearclub.online/PCL/Custom.xaml）
+你的网络环境不佳，导致难以连接到服务器。请检查网络，多重试几次，或尝试使用 VPN。
+————————————
+详细错误信息：
+→ 未能解析此远程名称: 'cdn.wearclub.online'
+   在 PCL.ModNet.NetGetCodeByRequestRetry(String Url, Encoding Encode, String Accept, Boolean IsJson, String BackupUrl)
+   在 PCL.PageLaunchRight.OnlineLoaderSub(LoaderTask`2 Task)
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 PCL.ModNet.NetGetCodeByRequestOnce(String Url, Encoding Encode, Int32 Timeout, Boolean IsJson, String Accept)
+错误类型：System.Net.WebException
+[14:30:49.013] [Loader] 加载器 自定义主页获取 状态改变：Finished
+[14:30:49.044] [Minecraft] 启动按钮：Minecraft 版本：E:\minecraft\versions\1.20.1-Fabric 0.14.21\
+[14:30:49.060] [Loader] 加载器 登录 状态改变：Loading
+[14:30:49.060] [System] DPI：192，系统版本：10.0.23531.0，PCL 位置：C:\FKOS\Plain Craft Launcher 2.exe
+[14:30:49.076] [Launch] 登录加载已开始
+[14:30:49.076] [Java] 缓存中有 3 个可用的 Java：
+[14:30:49.076] [Java]  - JRE 8 (8.0.381)，64 位：C:\Program Files\Java\jre-1.8\bin\
+[14:30:49.076] [Java]  - JDK 17 (17.0.7)，64 位：D:\Program Files\Java\jdk-17\bin\
+[14:30:49.076] [Java]  - JDK 19 (19.0.1)，64 位：D:\Java\jdk-19\bin\
+[14:30:49.091] [Loader] 加载器 Loader Login Legacy 状态改变：Loading
+[14:30:49.107] [Launch] 登录方式：离线（LYF）
+[14:30:49.107] [Loader] 加载器 Loader Login Legacy 状态改变：Finished
+[14:30:49.124] [Launch] 登录加载已结束
+[14:30:49.124] [Loader] 加载器 登录 状态改变：Finished
+[14:30:49.300] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[14:30:49.300] [Loader] 加载器 PCL 服务 状态改变：Loading
+[14:30:49.300] [Server] 正在连接到 PCL 服务器
+[14:30:49.316] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，超时 10000ms，要求 json
+[14:30:49.331] [Net] 获取网络结果：https://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1693722649-647066e8-0-6e84a8cc1640d4beaee2b41201bbdda5，超时 10000ms
+[14:30:49.833] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，超时 30000ms，要求 json
+[14:30:49.835] 加载线程 DlClientList Mojang (21) 发生运行时错误：获取结果失败，未能解析此远程名称: 'launchermeta.mojang.com'（https://launchermeta.mojang.com/mc/game/version_manifest.json）
+你的网络环境不佳，导致难以连接到服务器。请检查网络，多重试几次，或尝试使用 VPN。
+————————————
+详细错误信息：
+→ 未能解析此远程名称: 'launchermeta.mojang.com'
+   在 PCL.ModNet.NetGetCodeByRequestRetry(String Url, Encoding Encode, String Accept, Boolean IsJson, String BackupUrl)
+   在 PCL.ModDownload.DlClientListMojangMain(LoaderTask`2 Loader)
+   在 PCL.ModLoader.LoaderTask`2._Closure$__12-0._Lambda$__0()
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 PCL.ModNet.NetGetCodeByRequestOnce(String Url, Encoding Encode, Int32 Timeout, Boolean IsJson, String Accept)
+错误类型：System.Net.WebException
+[14:30:49.835] [Loader] 加载器 DlClientList Mojang 状态改变：Failed
+[14:30:49.847] [Net] 获取网络结果：https://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1693722650-1031f3a7-0-2f64220166385f99a9990b045f090a15，超时 30000ms
+[14:30:49.852] 获取 PCL 服务器状态失败：获取结果失败，未能解析此远程名称: 'pcl2-server-1253424809.file.myqcloud.com'（https://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1693722649-647066e8-0-6e84a8cc1640d4beaee2b41201bbdda5）
+你的网络环境不佳，导致难以连接到服务器。请检查网络，多重试几次，或尝试使用 VPN。
+————————————
+详细错误信息：
+→ 未能解析此远程名称: 'pcl2-server-1253424809.file.myqcloud.com'
+   在 PCL.ModNet.NetGetCodeByRequestRetry(String Url, Encoding Encode, String Accept, Boolean IsJson, String BackupUrl)
+   在 PCL.ModMain.ServerSubReal()
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 PCL.ModNet.NetGetCodeByRequestOnce(String Url, Encoding Encode, Int32 Timeout, Boolean IsJson, String Accept)
+错误类型：System.Net.WebException
+[14:30:49.852] [Loader] 加载器 PCL 服务 状态改变：Finished
+[14:31:00.281] [Control] 按下按钮：启动游戏
+[14:31:00.281] [Loader] 加载器 Loader Launch 状态改变：Loading
+[14:31:00.297] [System] 欲读取的文件不存在，已返回空字符串：C:\FKOS\PCL\hints.txt
+[14:31:00.390] [Launch] 预检测已通过
+[14:31:00.406] [Download] 已跳过 Assets 下载
+[14:31:00.406] [Loader] 加载器 登录 状态改变：Waiting
+[14:31:00.406] [Loader] 加载器 Minecraft 启动 状态改变：Loading
+[14:31:00.406] [Loader] 加载器 获取 Java 状态改变：Loading
+[14:31:00.422] [Loader] 加载器 登录 状态改变：Loading
+[14:31:00.423] [Loader] 加载器 补全文件 状态改变：Loading
+[14:31:00.423] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Loading
+[14:31:00.423] [Launch] 登录加载已开始
+[14:31:00.423] [Loader] 加载器 分析缺失支持库文件 状态改变：Loading
+[14:31:00.423] [Launch] 登录加载已结束
+[14:31:00.423] [Loader] 加载器 登录 状态改变：Finished
+[14:31:00.428] [Launch] Java 版本需求：最低 1.17.0.0，最高 999.999.999.999
+[14:31:00.437] [Minecraft] 获取支持库列表：1.20.1-Fabric 0.14.21
+[14:31:00.453] [Java] 开始完全遍历查找：E:\minecraft\
+[14:31:00.485] [Loader] 加载器 分析缺失支持库文件 状态改变：Finished
+[14:31:00.485] [Loader] 加载器 下载支持库文件 状态改变：Loading
+[14:31:00.485] [Java] 开始完全遍历查找：E:\minecraft\versions\1.20.1-Fabric 0.14.21\
+[14:31:00.500] [Loader] 加载器 下载支持库文件 状态改变：Finished
+[14:31:00.500] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Finished
+[14:31:00.500] [Loader] 加载器 补全文件 状态改变：Finished
+[14:31:00.516] [System] 执行外部命令并等待返回结果：D:\Program Files\Java\jdk-17\bin\java.exe -version
+[14:31:00.830] [Java] 用户指定的 Java：JDK 17 (17.0.7)，64 位：D:\Program Files\Java\jdk-17\bin\
+[14:31:00.830] [Java] 使用用户指定的 Java：D:\Program Files\Java\jdk-17\bin\
+[14:31:00.845] [Java] 排序后的 Java 优先顺序：
+[14:31:00.845] [Java]  - JDK 17 (17.0.7)，64 位：D:\Program Files\Java\jdk-17\bin\
+[14:31:00.845] [Java] 最终选定的 Java：JDK 17 (17.0.7)，64 位：D:\Program Files\Java\jdk-17\bin\
+[14:31:00.845] [Launch] 选择的 Java：JDK 17 (17.0.7)，64 位：D:\Program Files\Java\jdk-17\bin\
+[14:31:00.845] [Loader] 加载器 获取 Java 状态改变：Finished
+[14:31:00.845] [Loader] 加载器 获取启动参数 状态改变：Loading
+[14:31:00.845] [Launch] 开始获取 Minecraft 启动参数
+[14:31:00.845] [Launch] 获取新版 JVM 参数
+[14:31:00.845] [Launch] 当前剩余内存：8.8G
+[14:31:00.861] [System] 获取资源：JavaWrapper
+[14:31:00.861] [Java] 已释放 Java Wrapper：C:\Users\34062\AppData\Roaming\PCL\JavaWrapper.jar
+[14:31:00.861] [Launch] 新版 JVM 参数获取成功：
+[14:31:00.861] [Launch] -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Dfml.ignoreInvalidMinecraftCertificates=True -Dfml.ignorePatchDiscrepancies=True -Dlog4j2.formatMsgNoLookups=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.library.path=${natives_directory} -Djna.tmpdir=${natives_directory} -Dorg.lwjgl.system.SharedLibraryExtractPath=${natives_directory} -Dio.netty.native.workdir=${natives_directory} -Dminecraft.launcher.brand=${launcher_name} -Dminecraft.launcher.version=${launcher_version} -cp ${classpath} -DFabricMcEmu=net.minecraft.client.main.Main -Xmn256m -Xmx6144m -Dlog4j2.formatMsgNoLookups=true --add-exports cpw.mods.bootstraplauncher/cpw.mods.bootstraplauncher=ALL-UNNAMED -Doolloo.jlw.tmpdir="C:\Users\34062\AppData\Roaming\PCL" -jar "C:\Users\34062\AppData\Roaming\PCL\JavaWrapper.jar" net.fabricmc.loader.impl.launch.knot.KnotClient
+[14:31:00.861] [Launch] 获取新版 Game 参数
+[14:31:00.877] [Launch] 新版 Game 参数获取成功
+[14:31:00.877] [Minecraft] 获取支持库列表：1.20.1-Fabric 0.14.21
+[14:31:00.877] [Launch] Minecraft 启动参数：
+[14:31:00.892] [Launch] -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Dfml.ignoreInvalidMinecraftCertificates=True -Dfml.ignorePatchDiscrepancies=True -Dlog4j2.formatMsgNoLookups=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.library.path="E:\minecraft\versions\1.20.1-Fabric 0.14.21\1.20.1-Fabric 0.14.21-natives" -Djna.tmpdir="E:\minecraft\versions\1.20.1-Fabric 0.14.21\1.20.1-Fabric 0.14.21-natives" -Dorg.lwjgl.system.SharedLibraryExtractPath="E:\minecraft\versions\1.20.1-Fabric 0.14.21\1.20.1-Fabric 0.14.21-natives" -Dio.netty.native.workdir="E:\minecraft\versions\1.20.1-Fabric 0.14.21\1.20.1-Fabric 0.14.21-natives" -Dminecraft.launcher.brand=PCL -Dminecraft.launcher.version=302 -cp "E:\minecraft\libraries\com\github\oshi\oshi-core\6.2.2\oshi-core-6.2.2.jar;E:\minecraft\libraries\com\google\code\gson\gson\2.10\gson-2.10.jar;E:\minecraft\libraries\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;E:\minecraft\libraries\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;E:\minecraft\libraries\com\ibm\icu\icu4j\71.1\icu4j-71.1.jar;E:\minecraft\libraries\com\mojang\authlib\4.0.43\authlib-4.0.43.jar;E:\minecraft\libraries\com\mojang\blocklist\1.0.10\blocklist-1.0.10.jar;E:\minecraft\libraries\com\mojang\brigadier\1.1.8\brigadier-1.1.8.jar;E:\minecraft\libraries\com\mojang\datafixerupper\6.0.8\datafixerupper-6.0.8.jar;E:\minecraft\libraries\com\mojang\logging\1.1.1\logging-1.1.1.jar;E:\minecraft\libraries\com\mojang\patchy\2.2.10\patchy-2.2.10.jar;E:\minecraft\libraries\com\mojang\text2speech\1.17.9\text2speech-1.17.9.jar;E:\minecraft\libraries\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;E:\minecraft\libraries\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;E:\minecraft\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;E:\minecraft\libraries\io\netty\netty-buffer\4.1.82.Final\netty-buffer-4.1.82.Final.jar;E:\minecraft\libraries\io\netty\netty-codec\4.1.82.Final\netty-codec-4.1.82.Final.jar;E:\minecraft\libraries\io\netty\netty-common\4.1.82.Final\netty-common-4.1.82.Final.jar;E:\minecraft\libraries\io\netty\netty-handler\4.1.82.Final\netty-handler-4.1.82.Final.jar;E:\minecraft\libraries\io\netty\netty-resolver\4.1.82.Final\netty-resolver-4.1.82.Final.jar;E:\minecraft\libraries\io\netty\netty-transport-classes-epoll\4.1.82.Final\netty-transport-classes-epoll-4.1.82.Final.jar;E:\minecraft\libraries\io\netty\netty-transport-native-unix-common\4.1.82.Final\netty-transport-native-unix-common-4.1.82.Final.jar;E:\minecraft\libraries\io\netty\netty-transport\4.1.82.Final\netty-transport-4.1.82.Final.jar;E:\minecraft\libraries\it\unimi\dsi\fastutil\8.5.9\fastutil-8.5.9.jar;E:\minecraft\libraries\net\java\dev\jna\jna-platform\5.12.1\jna-platform-5.12.1.jar;E:\minecraft\libraries\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;E:\minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;E:\minecraft\libraries\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;E:\minecraft\libraries\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;E:\minecraft\libraries\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;E:\minecraft\libraries\org\apache\httpcomponents\httpcore\4.4.15\httpcore-4.4.15.jar;E:\minecraft\libraries\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;E:\minecraft\libraries\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;E:\minecraft\libraries\org\apache\logging\log4j\log4j-slf4j2-impl\2.19.0\log4j-slf4j2-impl-2.19.0.jar;E:\minecraft\libraries\org\joml\joml\1.10.5\joml-1.10.5.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.1\lwjgl-glfw-3.3.1.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.1\lwjgl-glfw-3.3.1-natives-windows.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.1\lwjgl-glfw-3.3.1-natives-windows-arm64.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-glfw\3.3.1\lwjgl-glfw-3.3.1-natives-windows-x86.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.1\lwjgl-jemalloc-3.3.1.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.1\lwjgl-jemalloc-3.3.1-natives-windows.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.1\lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-jemalloc\3.3.1\lwjgl-jemalloc-3.3.1-natives-windows-x86.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.1\lwjgl-openal-3.3.1.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.1\lwjgl-openal-3.3.1-natives-windows.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.1\lwjgl-openal-3.3.1-natives-windows-arm64.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-openal\3.3.1\lwjgl-openal-3.3.1-natives-windows-x86.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.1\lwjgl-opengl-3.3.1.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.1\lwjgl-opengl-3.3.1-natives-windows.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.1\lwjgl-opengl-3.3.1-natives-windows-arm64.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-opengl\3.3.1\lwjgl-opengl-3.3.1-natives-windows-x86.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.1\lwjgl-stb-3.3.1.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.1\lwjgl-stb-3.3.1-natives-windows.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.1\lwjgl-stb-3.3.1-natives-windows-arm64.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-stb\3.3.1\lwjgl-stb-3.3.1-natives-windows-x86.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.1\lwjgl-tinyfd-3.3.1.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.1\lwjgl-tinyfd-3.3.1-natives-windows.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.1\lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar;E:\minecraft\libraries\org\lwjgl\lwjgl-tinyfd\3.3.1\lwjgl-tinyfd-3.3.1-natives-windows-x86.jar;E:\minecraft\libraries\org\lwjgl\lwjgl\3.3.1\lwjgl-3.3.1.jar;E:\minecraft\libraries\org\lwjgl\lwjgl\3.3.1\lwjgl-3.3.1-natives-windows.jar;E:\minecraft\libraries\org\lwjgl\lwjgl\3.3.1\lwjgl-3.3.1-natives-windows-arm64.jar;E:\minecraft\libraries\org\lwjgl\lwjgl\3.3.1\lwjgl-3.3.1-natives-windows-x86.jar;E:\minecraft\libraries\org\slf4j\slf4j-api\2.0.1\slf4j-api-2.0.1.jar;E:\minecraft\libraries\net\fabricmc\tiny-mappings-parser\0.3.0+build.17\tiny-mappings-parser-0.3.0+build.17.jar;E:\minecraft\libraries\net\fabricmc\sponge-mixin\0.12.5+mixin.0.8.5\sponge-mixin-0.12.5+mixin.0.8.5.jar;E:\minecraft\libraries\net\fabricmc\tiny-remapper\0.8.2\tiny-remapper-0.8.2.jar;E:\minecraft\libraries\net\fabricmc\access-widener\2.1.0\access-widener-2.1.0.jar;E:\minecraft\libraries\org\ow2\asm\asm\9.5\asm-9.5.jar;E:\minecraft\libraries\org\ow2\asm\asm-analysis\9.5\asm-analysis-9.5.jar;E:\minecraft\libraries\org\ow2\asm\asm-commons\9.5\asm-commons-9.5.jar;E:\minecraft\libraries\org\ow2\asm\asm-tree\9.5\asm-tree-9.5.jar;E:\minecraft\libraries\org\ow2\asm\asm-util\9.5\asm-util-9.5.jar;E:\minecraft\libraries\net\fabricmc\intermediary\1.20.1\intermediary-1.20.1.jar;E:\minecraft\libraries\net\fabricmc\fabric-loader\0.14.21\fabric-loader-0.14.21.jar;E:\minecraft\versions\1.20.1-Fabric 0.14.21\1.20.1-Fabric 0.14.21.jar" -DFabricMcEmu=net.minecraft.client.main.Main -Xmn256m -Xmx6144m -Dlog4j2.formatMsgNoLookups=true --add-exports cpw.mods.bootstraplauncher/cpw.mods.bootstraplauncher=ALL-UNNAMED -Doolloo.jlw.tmpdir="C:\Users\34062\AppData\Roaming\PCL" -jar "C:\Users\34062\AppData\Roaming\PCL\JavaWrapper.jar" net.fabricmc.loader.impl.launch.knot.KnotClient --username LYF --version "1.20.1-Fabric 0.14.21" --gameDir "E:\minecraft\versions\1.20.1-Fabric 0.14.21" --assetsDir "E:\minecraft\assets" --assetIndex 5 --uuid 00000XXXXXXXXXXXXXXXXXXXXXX119FA --accessToken 00000XXXXXXXXXXXXXXXXXXXXXX119FA --clientId ${clientid} --xuid ${auth_xuid} --userType msa --versionType PCL --width 854 --height 480 --quickPlayPath ${quickPlayPath} 
+[14:31:00.892] [Loader] 加载器 获取启动参数 状态改变：Finished
+[14:31:00.908] [Loader] 加载器 解压文件 状态改变：Loading
+[14:31:00.924] [Launch] 正在解压 Natives 文件
+[14:31:00.924] [Launch] 删除：E:\minecraft\versions\1.20.1-Fabric 0.14.21\1.20.1-Fabric 0.14.21-natives\glfw.dll
+[14:31:00.924] [Launch] 删除：E:\minecraft\versions\1.20.1-Fabric 0.14.21\1.20.1-Fabric 0.14.21-natives\jemalloc.dll
+[14:31:00.924] [Launch] 删除：E:\minecraft\versions\1.20.1-Fabric 0.14.21\1.20.1-Fabric 0.14.21-natives\jna9158934779065075594.dll
+[14:31:00.924] [Launch] 删除：E:\minecraft\versions\1.20.1-Fabric 0.14.21\1.20.1-Fabric 0.14.21-natives\jna9158934779065075594.dll.x
+[14:31:00.924] [Launch] 删除：E:\minecraft\versions\1.20.1-Fabric 0.14.21\1.20.1-Fabric 0.14.21-natives\lwjgl.dll
+[14:31:00.924] [Launch] 删除：E:\minecraft\versions\1.20.1-Fabric 0.14.21\1.20.1-Fabric 0.14.21-natives\lwjgl_opengl.dll
+[14:31:00.924] [Launch] 删除：E:\minecraft\versions\1.20.1-Fabric 0.14.21\1.20.1-Fabric 0.14.21-natives\lwjgl_stb.dll
+[14:31:00.924] [Launch] 删除：E:\minecraft\versions\1.20.1-Fabric 0.14.21\1.20.1-Fabric 0.14.21-natives\OpenAL.dll
+[14:31:00.924] [Loader] 加载器 解压文件 状态改变：Finished
+[14:31:00.988] [Loader] 加载器 预启动处理 状态改变：Loading
+[14:31:01.034] [Launch] 当前语言为 zh_cn，无需修改
+[14:31:01.034] [Loader] 加载器 预启动处理 状态改变：Finished
+[14:31:01.066] [Loader] 加载器 执行自定义命令 状态改变：Loading
+[14:31:01.082] [Loader] 加载器 执行自定义命令 状态改变：Finished
+[14:31:01.144] [Loader] 加载器 启动进程 状态改变：Loading
+[14:31:01.160] [Control] 按下按钮：取消
+[14:31:01.160] [Loader] 加载器 Minecraft 启动 状态改变：Aborted
+[14:31:01.160] [Launch] 已取消启动
+[14:31:01.160] [Loader] 加载器 启动进程 状态改变：Aborted
+[14:31:01.223] [Launch] 已启动游戏进程：D:\Program Files\Java\jdk-17\bin\javaw.exe
+[14:31:01.229] [Launch] 由于取消启动，已强制结束游戏进程
+[14:31:01.317] [Loader] 加载器 Loader Launch 状态改变：Finished
+[14:31:01.380] [UI] 弹出提示：已取消启动！
+[14:31:02.508] [Control] 按下按钮：版本选择
+[14:31:02.555] [Control] 切换主要页面：VersionSelect, 0
+[14:31:02.743] [Minecraft] 有效的 Minecraft 文件夹：当前文件夹 > C:\FKOS\.minecraft\
+[14:31:02.743] [Minecraft] 有效的 Minecraft 文件夹：官方启动器文件夹 > C:\Users\34062\AppData\Roaming\.minecraft\
+[14:31:02.743] [Minecraft] 有效的 Minecraft 文件夹：minecraft > E:\minecraft\
+[14:31:02.758] [Loader] 加载器 Minecraft Version List 状态改变：Loading
+[14:31:02.805] [Setup] 当前选择的 Minecraft 版本：1.20.1-Fabric 0.14.21
+[14:31:02.805] [Minecraft] 选择该文件夹储存的 Minecraft 版本：E:\minecraft\versions\1.20.1-Fabric 0.14.21\
+[14:31:02.914] [Loader] 加载器 Minecraft Version List 状态改变：Finished
+[14:31:04.514] [Control] 按下单选列表项：官方启动器文件夹
+[14:31:04.516] [Setup] 当前选择的 Minecraft 文件夹：C:\Users\34062\AppData\Roaming\.minecraft\
+[14:31:04.516] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[14:31:04.516] [Loader] 加载器 Minecraft Version List 状态改变：Loading
+[14:31:04.527] [Setup] 当前选择的 Minecraft 版本：
+[14:31:04.528] [Minecraft] 未找到可用 Minecraft 版本
+[14:31:04.529] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[14:31:04.669] [Loader] 加载器 Minecraft Version List 状态改变：Finished
+[14:31:05.431] [Control] 按下单选列表项：当前文件夹
+[14:31:05.432] [Setup] 当前选择的 Minecraft 文件夹：C:\FKOS\.minecraft\
+[14:31:05.432] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[14:31:05.433] [Loader] 加载器 Minecraft Version List 状态改变：Loading
+[14:31:05.448] [Setup] 当前选择的 Minecraft 版本：1.18.2-Fabric 0.14.22-OptiFine_H9
+[14:31:05.448] [Minecraft] 选择该文件夹储存的 Minecraft 版本：C:\FKOS\.minecraft\versions\1.18.2-Fabric 0.14.22-OptiFine_H9\
+[14:31:05.458] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[14:31:05.599] [Loader] 加载器 Minecraft Version List 状态改变：Finished
+[14:31:07.771] [Minecraft] 无法完全确认 MC 版本号的版本：LabyMod-4-1.20.1-808c29e2
+[14:31:07.780] [Setup] 当前选择的 Minecraft 版本：LabyMod-4-1.20.1-808c29e2
+[14:31:07.783] [Control] 切换主要页面：Launch, -1
+[14:31:07.783] [Control] 按下单击列表项：LabyMod-4-1.20.1-808c29e2
+[14:31:07.908] [Page] 主页自定义数据来源：联网缓存文件
+[14:31:07.908] [Loader] 加载器 自定义主页获取 状态改变：Loading
+[14:31:07.923] [Minecraft] 启动按钮：Minecraft 版本：C:\FKOS\.minecraft\versions\LabyMod-4-1.20.1-808c29e2\
+[14:31:07.954] [Net] 获取网络结果：https://cdn.wearclub.online/PCL/Custom.xaml.ini，超时 10000ms
+[14:31:07.987] 联网获取自定义主页版本失败：获取结果失败，未能解析此远程名称: 'cdn.wearclub.online'（https://cdn.wearclub.online/PCL/Custom.xaml.ini）
+你的网络环境不佳，导致难以连接到服务器。请检查网络，多重试几次，或尝试使用 VPN。
+————————————
+详细错误信息：
+→ 未能解析此远程名称: 'cdn.wearclub.online'
+   在 PCL.ModNet.NetGetCodeByRequestOnce(String Url, Encoding Encode, Int32 Timeout, Boolean IsJson, String Accept)
+   在 PCL.PageLaunchRight.OnlineLoaderSub(LoaderTask`2 Task)
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 PCL.ModNet.NetGetCodeByRequestOnce(String Url, Encoding Encode, Int32 Timeout, Boolean IsJson, String Accept)
+错误类型：System.Net.WebException
+[14:31:07.987] [Page] 无法检查联网自定义主页版本，将直接下载，检查源：https://cdn.wearclub.online/PCL/Custom.xaml.ini
+[14:31:07.987] [Net] 获取网络结果：https://cdn.wearclub.online/PCL/Custom.xaml，超时 10000ms
+[14:31:08.515] [Net] 获取网络结果：https://cdn.wearclub.online/PCL/Custom.xaml，超时 30000ms
+[14:31:08.519] 联网下载自定义主页失败（https://cdn.wearclub.online/PCL/Custom.xaml）：获取结果失败，未能解析此远程名称: 'cdn.wearclub.online'（https://cdn.wearclub.online/PCL/Custom.xaml）
+你的网络环境不佳，导致难以连接到服务器。请检查网络，多重试几次，或尝试使用 VPN。
+————————————
+详细错误信息：
+→ 未能解析此远程名称: 'cdn.wearclub.online'
+   在 PCL.ModNet.NetGetCodeByRequestRetry(String Url, Encoding Encode, String Accept, Boolean IsJson, String BackupUrl)
+   在 PCL.PageLaunchRight.OnlineLoaderSub(LoaderTask`2 Task)
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 PCL.ModNet.NetGetCodeByRequestOnce(String Url, Encoding Encode, Int32 Timeout, Boolean IsJson, String Accept)
+错误类型：System.Net.WebException
+[14:31:08.519] [Loader] 加载器 自定义主页获取 状态改变：Finished
+[14:31:09.367] [Control] 按下按钮：启动游戏
+[14:31:09.367] [Loader] 加载器 Loader Launch 状态改变：Loading
+[14:31:09.383] [System] 欲读取的文件不存在，已返回空字符串：C:\FKOS\PCL\hints.txt
+[14:31:09.414] [Launch] 预检测已通过
+[14:31:09.414] [Download] 已跳过 Assets 下载
+[14:31:09.414] [Loader] 加载器 登录 状态改变：Waiting
+[14:31:09.414] [Loader] 加载器 Minecraft 启动 状态改变：Loading
+[14:31:09.414] [Loader] 加载器 获取 Java 状态改变：Loading
+[14:31:09.414] [Loader] 加载器 登录 状态改变：Loading
+[14:31:09.414] [Launch] 登录加载已开始
+[14:31:09.414] [Launch] 登录加载已结束
+[14:31:09.414] [Loader] 加载器 登录 状态改变：Finished
+[14:31:09.414] [Loader] 加载器 补全文件 状态改变：Loading
+[14:31:09.414] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Loading
+[14:31:09.414] [Loader] 加载器 分析缺失支持库文件 状态改变：Loading
+[14:31:09.414] [Minecraft] 获取支持库列表：LabyMod-4-1.20.1-808c29e2
+[14:31:09.414] [Launch] Java 版本需求：最低 1.17.0.0，最高 1.19.999.999
+[14:31:09.414] [Java] 开始完全遍历查找：C:\FKOS\
+[14:31:09.429] [Java] 开始完全遍历查找：C:\FKOS\.minecraft\
+[14:31:09.461] [Java] 开始完全遍历查找：C:\FKOS\.minecraft\versions\LabyMod-4-1.20.1-808c29e2\
+[14:31:09.461] [System] 执行外部命令并等待返回结果：D:\Program Files\Java\jdk-17\bin\java.exe -version
+[14:31:09.461] [Loader] 加载器 分析缺失支持库文件 状态改变：Finished
+[14:31:09.461] [Loader] 加载器 下载支持库文件 状态改变：Loading
+[14:31:09.476] [Loader] 加载器 下载支持库文件 状态改变：Finished
+[14:31:09.476] [Loader] 加载器 下载支持库文件（主加载器） 状态改变：Finished
+[14:31:09.476] [Loader] 加载器 补全文件 状态改变：Finished
+[14:31:09.836] [Java] 用户指定的 Java：JDK 17 (17.0.7)，64 位：D:\Program Files\Java\jdk-17\bin\
+[14:31:09.836] [Java] 使用用户指定的 Java：D:\Program Files\Java\jdk-17\bin\
+[14:31:09.836] [Java] 排序后的 Java 优先顺序：
+[14:31:09.836] [Java]  - JDK 17 (17.0.7)，64 位：D:\Program Files\Java\jdk-17\bin\
+[14:31:09.836] [Java] 最终选定的 Java：JDK 17 (17.0.7)，64 位：D:\Program Files\Java\jdk-17\bin\
+[14:31:09.836] [Launch] 选择的 Java：JDK 17 (17.0.7)，64 位：D:\Program Files\Java\jdk-17\bin\
+[14:31:09.836] [Loader] 加载器 获取 Java 状态改变：Finished
+[14:31:09.836] [Loader] 加载器 获取启动参数 状态改变：Loading
+[14:31:09.836] [Launch] 开始获取 Minecraft 启动参数
+[14:31:09.836] [Launch] 获取新版 JVM 参数
+[14:31:09.836] [Launch] 当前剩余内存：8.6G
+[14:31:09.836] [System] 获取资源：JavaWrapper
+[14:31:09.836] [Java] 已释放 Java Wrapper：C:\Users\34062\AppData\Roaming\PCL\JavaWrapper.jar
+[14:31:09.836] [Launch] 新版 JVM 参数获取成功：
+[14:31:09.836] [Launch] -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Dfml.ignoreInvalidMinecraftCertificates=True -Dfml.ignorePatchDiscrepancies=True -Dlog4j2.formatMsgNoLookups=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.library.path=${natives_directory} -Djna.tmpdir=${natives_directory} -Dorg.lwjgl.system.SharedLibraryExtractPath=${natives_directory} -Dio.netty.native.workdir=${natives_directory} -Dminecraft.launcher.brand=${launcher_name} -Dminecraft.launcher.version=${launcher_version} -cp ${classpath} -Dnet.labymod.running-version=1.20.1 -Xmn256m -Xmx5939m -Dlog4j2.formatMsgNoLookups=true --add-exports cpw.mods.bootstraplauncher/cpw.mods.bootstraplauncher=ALL-UNNAMED -Doolloo.jlw.tmpdir="C:\Users\34062\AppData\Roaming\PCL" -jar "C:\Users\34062\AppData\Roaming\PCL\JavaWrapper.jar" net.minecraft.launchwrapper.Launch
+[14:31:09.836] [Launch] 获取新版 Game 参数
+[14:31:09.836] [Launch] 新版 Game 参数获取成功
+[14:31:09.836] [Minecraft] 获取支持库列表：LabyMod-4-1.20.1-808c29e2
+[14:31:09.852] [Minecraft] 无法完全确认 MC 版本号的版本：LabyMod-4-1.20.1-808c29e2
+[14:31:09.867] [Launch] Minecraft 启动参数：
+[14:31:09.872] [Launch] -XX:+UseG1GC -XX:-UseAdaptiveSizePolicy -XX:-OmitStackTraceInFastThrow -Dfml.ignoreInvalidMinecraftCertificates=True -Dfml.ignorePatchDiscrepancies=True -Dlog4j2.formatMsgNoLookups=true -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.library.path="C:\FKOS\.minecraft\versions\LabyMod-4-1.20.1-808c29e2\LabyMod-4-1.20.1-808c29e2-natives" -Djna.tmpdir="C:\FKOS\.minecraft\versions\LabyMod-4-1.20.1-808c29e2\LabyMod-4-1.20.1-808c29e2-natives" -Dorg.lwjgl.system.SharedLibraryExtractPath="C:\FKOS\.minecraft\versions\LabyMod-4-1.20.1-808c29e2\LabyMod-4-1.20.1-808c29e2-natives" -Dio.netty.native.workdir="C:\FKOS\.minecraft\versions\LabyMod-4-1.20.1-808c29e2\LabyMod-4-1.20.1-808c29e2-natives" -Dminecraft.launcher.brand=PCL -Dminecraft.launcher.version=302 -cp "C:\FKOS\.minecraft\libraries\com\github\oshi\oshi-core\6.2.2\oshi-core-6.2.2.jar;C:\FKOS\.minecraft\libraries\com\google\code\gson\gson\2.10\gson-2.10.jar;C:\FKOS\.minecraft\libraries\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\FKOS\.minecraft\libraries\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\FKOS\.minecraft\libraries\com\ibm\icu\icu4j\71.1\icu4j-71.1.jar;C:\FKOS\.minecraft\libraries\com\mojang\authlib\4.0.43\authlib-4.0.43.jar;C:\FKOS\.minecraft\libraries\com\mojang\blocklist\1.0.10\blocklist-1.0.10.jar;C:\FKOS\.minecraft\libraries\com\mojang\brigadier\1.1.8\brigadier-1.1.8.jar;C:\FKOS\.minecraft\libraries\com\mojang\datafixerupper\6.0.8\datafixerupper-6.0.8.jar;C:\FKOS\.minecraft\libraries\com\mojang\logging\1.1.1\logging-1.1.1.jar;C:\FKOS\.minecraft\libraries\com\mojang\patchy\2.2.10\patchy-2.2.10.jar;C:\FKOS\.minecraft\libraries\com\mojang\text2speech\1.17.9\text2speech-1.17.9.jar;C:\FKOS\.minecraft\libraries\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\FKOS\.minecraft\libraries\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\FKOS\.minecraft\libraries\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\FKOS\.minecraft\libraries\io\netty\netty-buffer\4.1.82.Final\netty-buffer-4.1.82.Final.jar;C:\FKOS\.minecraft\libraries\io\netty\netty-codec\4.1.82.Final\netty-codec-4.1.82.Final.jar;C:\FKOS\.minecraft\libraries\io\netty\netty-common\4.1.82.Final\netty-common-4.1.82.Final.jar;C:\FKOS\.minecraft\libraries\io\netty\netty-handler\4.1.82.Final\netty-handler-4.1.82.Final.jar;C:\FKOS\.minecraft\libraries\io\netty\netty-resolver\4.1.82.Final\netty-resolver-4.1.82.Final.jar;C:\FKOS\.minecraft\libraries\io\netty\netty-transport-classes-epoll\4.1.82.Final\netty-transport-classes-epoll-4.1.82.Final.jar;C:\FKOS\.minecraft\libraries\io\netty\netty-transport-native-unix-common\4.1.82.Final\netty-transport-native-unix-common-4.1.82.Final.jar;C:\FKOS\.minecraft\libraries\io\netty\netty-transport\4.1.82.Final\netty-transport-4.1.82.Final.jar;C:\FKOS\.minecraft\libraries\it\unimi\dsi\fastutil\8.5.9\fastutil-8.5.9.jar;C:\FKOS\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\6.0-alpha-3\jopt-simple-6.0-alpha-3.jar;C:\FKOS\.minecraft\libraries\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\FKOS\.minecraft\libraries\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\FKOS\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\FKOS\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.4.15\httpcore-4.4.15.jar;C:\FKOS\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\FKOS\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\FKOS\.minecraft\libraries\org\apache\logging\log4j\log4j-slf4j2-impl\2.19.0\log4j-slf4j2-impl-2.19.0.jar;C:\FKOS\.minecraft\libraries\org\joml\joml\1.10.5\joml-1.10.5.jar;C:\FKOS\.minecraft\libraries\org\slf4j\slf4j-api\2.0.1\slf4j-api-2.0.1.jar;C:\FKOS\.minecraft\libraries\net\java\dev\jna\jna-platform\5.12.1\jna-platform-5.12.1.jar;C:\FKOS\.minecraft\libraries\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\FKOS\.minecraft\libraries\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\FKOS\.minecraft\libraries\net\labymod\serverapi\protocol\0.0.11\protocol-0.0.11.jar;C:\FKOS\.minecraft\libraries\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\FKOS\.minecraft\libraries\javax\inject\javax.inject\1\javax.inject-1.jar;C:\FKOS\.minecraft\libraries\org\jetbrains\annotations\22.0.0\annotations-22.0.0.jar;C:\FKOS\.minecraft\libraries\net\labymod\jncrmx\discord-game-sdk4j\0.5.6\discord-game-sdk4j-0.5.6.jar;C:\FKOS\.minecraft\libraries\net\labymod\account-manager\1.2.1\account-manager-1.2.1.jar;C:\FKOS\.minecraft\libraries\org\sejda\imageio\webp-imageio\0.1.6\webp-imageio-0.1.6.jar;C:\FKOS\.minecraft\libraries\net\labymod\AccessWidener\0.1.0\AccessWidener-0.1.0.jar;C:\FKOS\.minecraft\libraries\pt\davidafsilva\apple\jkeychain\1.0.0\jkeychain-1.0.0.jar;C:\FKOS\.minecraft\libraries\com\github\vatbub\mslinks\1.0.6.2\mslinks-1.0.6.2.jar;C:\FKOS\.minecraft\libraries\net\labymod\dnsjava\4.0.0\dnsjava-4.0.0.jar;C:\FKOS\.minecraft\libraries\io\sentry\sentry\6.13.0\sentry-6.13.0.jar;C:\FKOS\.minecraft\libraries\net\labymod\labypeer\client\3.1\client-3.1.jar;C:\FKOS\.minecraft\libraries\net\labymod\ForgeAutoRenamingTool\0.1.3+1.0.2\ForgeAutoRenamingTool-0.1.3+1.0.2.jar;C:\FKOS\.minecraft\libraries\net\labymod\labypeer\common\3.1\common-3.1.jar;C:\FKOS\.minecraft\libraries\org\ow2\asm\asm-commons\9.5\asm-commons-9.5.jar;C:\FKOS\.minecraft\libraries\org\ow2\asm\asm-tree\9.5\asm-tree-9.5.jar;C:\FKOS\.minecraft\libraries\org\ow2\asm\asm\9.5\asm-9.5.jar;C:\FKOS\.minecraft\libraries\net\minecraftforge\srgutils\0.5.4\srgutils-0.5.4.jar;C:\FKOS\.minecraft\libraries\net\minecraft\launchwrapper\3.1.4\launchwrapper-3.1.4.jar;C:\FKOS\.minecraft\libraries\org\ow2\asm\asm-util\9.5\asm-util-9.5.jar;C:\FKOS\.minecraft\libraries\org\ow2\asm\asm-analysis\9.5\asm-analysis-9.5.jar;C:\FKOS\.minecraft\libraries\net\labymod\sponge-mixin\0.3.5+0.12.5+mixin.0.8.5\sponge-mixin-0.3.5+0.12.5+mixin.0.8.5.jar;C:\FKOS\.minecraft\libraries\net\labymod\LabyMod\4\LabyMod-4.jar;C:\FKOS\.minecraft\versions\LabyMod-4-1.20.1-808c29e2\LabyMod-4-1.20.1-808c29e2.jar" -Dnet.labymod.running-version=1.20.1 -Xmn256m -Xmx5939m -Dlog4j2.formatMsgNoLookups=true --add-exports cpw.mods.bootstraplauncher/cpw.mods.bootstraplauncher=ALL-UNNAMED -Doolloo.jlw.tmpdir="C:\Users\34062\AppData\Roaming\PCL" -jar "C:\Users\34062\AppData\Roaming\PCL\JavaWrapper.jar" net.minecraft.launchwrapper.Launch --username LYF --version LabyMod-4-1.20.1-808c29e2 --gameDir "C:\FKOS\.minecraft\versions\LabyMod-4-1.20.1-808c29e2" --assetsDir "C:\FKOS\.minecraft\assets" --assetIndex 5 --uuid 00000XXXXXXXXXXXXXXXXXXXXXX119FA --accessToken 00000XXXXXXXXXXXXXXXXXXXXXX119FA --clientId ${clientid} --xuid ${auth_xuid} --userType msa --versionType PCL --width 854 --height 480 --quickPlayPath ${quickPlayPath} --dummyMinecraftClass net.minecraft.client.main.Main --tweakClass net.labymod.core.loader.vanilla.launchwrapper.LabyModLaunchWrapperTweaker 
+[14:31:09.872] [Loader] 加载器 获取启动参数 状态改变：Finished
+[14:31:09.883] [Loader] 加载器 解压文件 状态改变：Loading
+[14:31:09.883] [Launch] 正在解压 Natives 文件
+[14:31:09.883] [Launch] 删除：C:\FKOS\.minecraft\versions\LabyMod-4-1.20.1-808c29e2\LabyMod-4-1.20.1-808c29e2-natives\glfw.dll
+[14:31:09.883] [Launch] 删除：C:\FKOS\.minecraft\versions\LabyMod-4-1.20.1-808c29e2\LabyMod-4-1.20.1-808c29e2-natives\jemalloc.dll
+[14:31:09.883] [Launch] 删除：C:\FKOS\.minecraft\versions\LabyMod-4-1.20.1-808c29e2\LabyMod-4-1.20.1-808c29e2-natives\jna17893228824022938762.dll
+[14:31:09.883] [Launch] 删除：C:\FKOS\.minecraft\versions\LabyMod-4-1.20.1-808c29e2\LabyMod-4-1.20.1-808c29e2-natives\jna17893228824022938762.dll.x
+[14:31:09.883] [Launch] 删除：C:\FKOS\.minecraft\versions\LabyMod-4-1.20.1-808c29e2\LabyMod-4-1.20.1-808c29e2-natives\lwjgl.dll
+[14:31:09.883] [Launch] 删除：C:\FKOS\.minecraft\versions\LabyMod-4-1.20.1-808c29e2\LabyMod-4-1.20.1-808c29e2-natives\lwjgl_opengl.dll
+[14:31:09.883] [Launch] 删除：C:\FKOS\.minecraft\versions\LabyMod-4-1.20.1-808c29e2\LabyMod-4-1.20.1-808c29e2-natives\lwjgl_stb.dll
+[14:31:09.883] [Launch] 删除：C:\FKOS\.minecraft\versions\LabyMod-4-1.20.1-808c29e2\LabyMod-4-1.20.1-808c29e2-natives\OpenAL.dll
+[14:31:09.883] [Loader] 加载器 解压文件 状态改变：Finished
+[14:31:09.946] [Loader] 加载器 预启动处理 状态改变：Loading
+[14:31:10.024] [Launch] 当前语言为 zh_cn，无需修改
+[14:31:10.024] [Loader] 加载器 预启动处理 状态改变：Finished
+[14:31:10.086] [Loader] 加载器 执行自定义命令 状态改变：Loading
+[14:31:10.102] [Loader] 加载器 执行自定义命令 状态改变：Finished
+[14:31:10.102] [Loader] 加载器 启动进程 状态改变：Loading
+[14:31:10.118] [Launch] 已启动游戏进程：D:\Program Files\Java\jdk-17\bin\javaw.exe
+[14:31:10.118] [Loader] 加载器 启动进程 状态改变：Finished
+[14:31:10.196] [Loader] 加载器 等待游戏窗口出现 状态改变：Loading
+[14:31:10.316] [Launch] 
+[14:31:10.316] [Launch] ~ 基础参数 ~
+[14:31:10.316] [Launch] PCL 版本：Release 2.6.7 (302)
+[14:31:10.316] [Launch] 游戏版本：1.20.1, Forge（20.1）
+[14:31:10.316] [Launch] 资源版本：5
+[14:31:10.316] [Launch] 版本继承：无
+[14:31:10.509] [Launch] 分配的内存：5.8 GB（5837 MB）
+[14:31:10.509] [Launch] MC 文件夹：C:\FKOS\.minecraft\
+[14:31:10.509] [Launch] 版本文件夹：C:\FKOS\.minecraft\versions\LabyMod-4-1.20.1-808c29e2\
+[14:31:10.509] [Launch] 版本隔离：True
+[14:31:10.509] [Launch] HMCL 格式：False
+[14:31:10.509] [Launch] Java 信息：JDK 17 (17.0.7)，64 位：D:\Program Files\Java\jdk-17\bin\
+[14:31:10.509] [Launch] 环境变量：未设置
+[14:31:10.509] [Launch] 
+[14:31:10.509] [Launch] ~ 登录参数 ~
+[14:31:10.509] [Launch] 玩家用户名：LYF
+[14:31:10.509] [Launch] AccessToken：00000XXXXXXXXXXXXXXXXXXXXXX119FA
+[14:31:10.509] [Launch] ClientToken：00000XXXXXXXXXXXXXXXXXXXXXX119FA
+[14:31:10.509] [Launch] UUID：00000XXXXXXXXXXXXXXXXXXXXXX119FA
+[14:31:10.509] [Launch] 登录方式：Legacy
+[14:31:10.509] [Launch] 
+[14:31:10.524] [Launch] [28328] 开始 Minecraft 日志监控
+[14:31:10.524] [Launch] [全局] 出现运行中的 Minecraft
+[14:31:10.728] [Launch] [28328] 日志 1/5：已出现日志输出
+[14:31:22.945] [Report] FPS 0, 动画 7, 下载中 0（0 B/s）
+[14:31:25.762] [Animation] 两个动画帧间隔 328 ms
+[14:31:27.314] [Animation] 两个动画帧间隔 203 ms
+[14:31:29.415] [Animation] 两个动画帧间隔 219 ms
+[14:31:34.199] [Control] 执行自定义事件：打开网页, https://cn.bing.com/
+[14:31:34.200] [System] 正在打开网页：https://cn.bing.com/
+[14:31:34.247] [UI] 弹出提示：正在开启中，请稍候……
+[14:31:37.329] [Animation] 两个动画帧间隔 469 ms
+[14:31:37.970] [Animation] 两个动画帧间隔 234 ms
+[14:31:40.151] [Launch] [28328] 日志 2/5：游戏用户已设置
+[14:31:40.703] [Launch] [28328] Minecraft 窗口已加载：OpenGL Version Requester（460122）
+[14:31:40.807] [Launch] [28328] 日志 3/5：LWJGL 版本已确认
+[14:31:40.807] [Launch] [28328] Minecraft 加载已完成
+[14:31:40.845] [Loader] 加载器 等待游戏窗口出现 状态改变：Finished
+[14:31:40.882] [Loader] 加载器 结束处理 状态改变：Loading
+[14:31:41.015] [Launch] 开始启动结束处理
+[14:31:41.077] [Launch] 启动器可见性：2
+[14:31:41.077] [Launch] 已根据设置，在启动后隐藏启动器
+[14:31:41.077] [Loader] 加载器 结束处理 状态改变：Finished
+[14:31:41.216] [System] 窗口已隐藏，位置：(-9765,57)
+[14:31:41.221] [Loader] 加载器 Minecraft 启动 状态改变：Finished
+[14:31:41.581] [Loader] 加载器 Loader Launch 状态改变：Finished
+[14:31:41.612] [UI] 弹出提示：LabyMod-4-1.20.1-808c29e2 启动成功！
+[14:31:42.917] [Launch] [28328] 已最大化 Minecraft 窗口：460122
+[14:31:48.573] [Animation] 两个动画帧间隔 235 ms
+[14:31:51.430] [Animation] 两个动画帧间隔 281 ms
+[14:31:56.103] [Launch] [28328] 日志 4/5：OpenAL 已加载
+[14:31:56.334] [Launch] [28328] 日志 5/5：材质已加载
+[14:32:01.841] [Animation] 两个动画帧间隔 281 ms
+[14:32:03.156] [Animation] 两个动画帧间隔 344 ms
+[14:32:10.532] [Animation] 两个动画帧间隔 266 ms
+[14:32:10.906] [Animation] 两个动画帧间隔 312 ms
+[14:32:28.150] [Launch] [28328] Minecraft 已退出，返回值：0
+[14:32:28.152] [Launch] [全局] 已无运行中的 Minecraft
+[14:32:28.243] [System] 收到关闭指令
+[14:32:28.388] [Launch] [28328] Minecraft 日志监控已退出
+[14:32:28.477] [System] 程序已退出，返回值：Success

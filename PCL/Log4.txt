@@ -1,0 +1,71 @@
+[12:07:23.180] [Start] 程序版本：Release 2.6.7（302）
+[12:07:23.180] [Start] 识别码：E2E9-F73F-6A56-74AD
+[12:07:23.180] [Start] 程序路径：C:\FKOS\Plain Craft Launcher 2.exe
+[12:07:23.196] [Start] 第一阶段加载用时：125 ms
+[12:07:23.461] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[12:07:23.461] [Start] 第二阶段加载用时：250 ms
+[12:07:23.493] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[12:07:24.149] [System] 窗口已置顶，位置：(235, 57), 810 x 638
+[12:07:24.165] [Animation] 动画线程开始
+[12:07:24.243] [Start] 第三阶段加载用时：219 ms
+[12:07:24.243] [Start] 加载 DLL：Json
+[12:07:24.243] [System] 获取资源：Json
+[12:07:24.243] [Page] 主页自定义数据来源：联网缓存文件
+[12:07:24.259] [Loader] 加载器 自定义主页获取 状态改变：Loading
+[12:07:24.259] [Launch] Minecraft 文件夹：E:\minecraft\
+[12:07:24.275] [Net] 获取网络结果：https://cdn.wearclub.online/PCL/Custom.xaml.ini，超时 10000ms
+[12:07:24.400] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
+[12:07:24.415] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
+[12:07:24.478] [Animation] 两个动画帧间隔 281 ms
+[12:07:24.525] [Page] 实例化：加载自定义主页 UI，最终内容长度：5292
+[12:07:24.759] [Page] 当前缓存的自定义主页已为最新，当前版本：ver 0.0.3
+，检查源：https://cdn.wearclub.online/PCL/Custom.xaml.ini
+[12:07:24.759] [Page] 主页自定义数据来源：联网缓存文件
+[12:07:24.759] [Loader] 加载器 自定义主页获取 状态改变：Finished
+[12:07:25.040] [Animation] 两个动画帧间隔 532 ms
+[12:07:25.056] [Skin] 载入头像成功：Loader Skin Legacy
+[12:07:25.056] [System] DPI：192，系统版本：10.0.23531.0，PCL 位置：C:\FKOS\Plain Craft Launcher 2.exe
+[12:07:25.212] [Minecraft] 启动按钮：Minecraft 版本：E:\minecraft\versions\1.10.2-Forge_12.18.3.2511\
+[12:07:25.228] [Loader] 加载器 登录 状态改变：Loading
+[12:07:25.447] [Launch] 登录加载已开始
+[12:07:25.806] [Loader] 加载器 Loader Login Legacy 状态改变：Loading
+[12:07:25.806] [Launch] 登录方式：离线（LYF）
+[12:07:25.806] [Loader] 加载器 Loader Login Legacy 状态改变：Finished
+[12:07:25.837] [Launch] 登录加载已结束
+[12:07:25.837] [Loader] 加载器 登录 状态改变：Finished
+[12:07:25.931] [Java] 缓存中有 3 个可用的 Java：
+[12:07:25.931] [Java]  - JRE 8 (8.0.381)，64 位：C:\Program Files\Java\jre-1.8\bin\
+[12:07:25.931] [Java]  - JDK 17 (17.0.7)，64 位：D:\Program Files\Java\jdk-17\bin\
+[12:07:25.931] [Java]  - JDK 19 (19.0.1)，64 位：D:\Java\jdk-19\bin\
+[12:07:26.181] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[12:07:26.259] [Loader] 加载器 PCL 服务 状态改变：Loading
+[12:07:26.259] [Server] 正在连接到 PCL 服务器
+[12:07:26.259] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，超时 10000ms，要求 json
+[12:07:26.353] [Net] 获取网络结果：https://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1693714046-7674ee5d-0-5f2d647bc5e5c341b1964fb60489e6c2，超时 10000ms
+[12:07:26.712] [Server] 服务器公告：117|303|302|5，无需更新
+[12:07:26.712] [Loader] 加载器 PCL 服务 状态改变：Finished
+[12:07:27.526] [Loader] 加载器 DlClientList Mojang 状态改变：Finished
+[12:07:27.932] [System] 收到置顶信息：393894
+[12:07:27.948] [System] 窗口已置顶，位置：(235, 57), 810 x 638
+[12:07:28.225] [Control] 按下按钮：版本设置
+[12:07:28.317] [Control] 切换主要页面：VersionSetup, 0
+[12:07:30.217] [Control] 按下按钮：删除版本
+[12:07:30.249] [Control] 普通弹窗：版本删除确认
+你确定要删除版本 1.10.2-Forge_12.18.3.2511 吗？
+由于该版本开启了版本隔离，删除版本时该版本对应的存档、资源包、Mod 等文件也将被一并删除！
+[12:07:31.439] [Control] 按下按钮：确定
+[12:07:31.439] [Control] 普通弹框返回：1
+[12:07:32.346] [Loader] 加载器 Minecraft Version List 状态改变：Loading
+[12:07:32.362] [Control] 切换主要页面：Launch, -1
+[12:07:32.362] [UI] 弹出提示：版本 1.10.2-Forge_12.18.3.2511 已删除到回收站！
+[12:07:32.362] [Minecraft] 文件夹列表变更，重载所有版本
+[12:07:32.377] [Animation] 两个动画帧间隔 922 ms
+[12:07:32.409] [Page] 主页自定义数据来源：联网缓存文件
+[12:07:32.424] [Minecraft] 启动按钮：正在加载 Minecraft 版本
+[12:07:32.487] [Setup] 当前选择的 Minecraft 版本：1.20.1-Fabric 0.14.21
+[12:07:32.503] [Launch] 自动选择 Minecraft 版本：E:\minecraft\versions\1.20.1-Fabric 0.14.21\
+[12:07:32.503] [Loader] 加载器 Minecraft Version List 状态改变：Finished
+[12:07:32.503] [Minecraft] 启动按钮：Minecraft 版本：E:\minecraft\versions\1.20.1-Fabric 0.14.21\
+[12:07:33.144] [Control] 按下图标按钮：BtnTitleClose
+[12:07:33.144] [System] 收到关闭指令
+[12:07:33.395] [System] 程序已退出，返回值：Success

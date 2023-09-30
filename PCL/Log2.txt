@@ -1,0 +1,137 @@
+[20:21:38.053] [Start] 程序版本：Release 2.6.7（302）
+[20:21:38.057] [Start] 识别码：E2E9-F73F-6A56-74AD
+[20:21:38.057] [Start] 程序路径：C:\FKOS\Plain Craft Launcher 2.exe
+[20:21:38.073] [Start] 第一阶段加载用时：235 ms
+[20:21:38.365] [Loader] 加载器 Minecraft Folder List 状态改变：Loading
+[20:21:38.366] [Start] 第二阶段加载用时：282 ms
+[20:21:38.394] [Loader] 加载器 Minecraft Folder List 状态改变：Finished
+[20:21:39.118] [System] 窗口已置顶，位置：(235, 57), 810 x 638
+[20:21:39.129] [Animation] 动画线程开始
+[20:21:39.129] [Start] 第三阶段加载用时：204 ms
+[20:21:39.134] [Start] 加载 DLL：Json
+[20:21:39.135] [System] 获取资源：Json
+[20:21:39.143] [Page] 主页自定义数据来源：联网全新下载
+[20:21:39.156] [Launch] Minecraft 文件夹：C:\FKOS\.minecraft\
+[20:21:39.341] [Loader] 加载器 Loader Skin Legacy 状态改变：Loading
+[20:21:39.351] [Loader] 加载器 Loader Skin Legacy 状态改变：Finished
+[20:21:39.399] [UI] 弹出提示：正在加载主页……
+[20:21:39.445] [Page] 实例化：清空自定义主页 UI，来源为空
+[20:21:39.452] [Loader] 加载器 自定义主页获取 状态改变：Loading
+[20:21:39.469] [Net] 获取网络结果：https://cdn.wearclub.online/PCL/Custom.xaml.ini，超时 10000ms
+[20:21:39.484] [Skin] 载入头像成功：Loader Skin Legacy
+[20:21:39.484] [Animation] 两个动画帧间隔 328 ms
+[20:21:39.688] [Java] 缓存中有 3 个可用的 Java：
+[20:21:39.692] [Java]  - JRE 8 (8.0.381)，64 位：C:\Program Files\Java\jre-1.8\bin\
+[20:21:39.692] [Java]  - JDK 17 (17.0.7)，64 位：D:\Program Files\Java\jdk-17\bin\
+[20:21:39.692] [Java]  - JDK 19 (19.0.1)，64 位：D:\Java\jdk-19\bin\
+[20:21:39.759] [Minecraft] 无法完全确认 MC 版本号的版本：LabyMod-4-1.20.1-808c29e2
+[20:21:39.798] [Minecraft] 启动按钮：Minecraft 版本：C:\FKOS\.minecraft\versions\LabyMod-4-1.20.1-808c29e2\
+[20:21:39.812] [Loader] 加载器 登录 状态改变：Loading
+[20:21:39.820] [Launch] 登录加载已开始
+[20:21:39.829] [Loader] 加载器 Loader Login Legacy 状态改变：Loading
+[20:21:39.832] [Launch] 登录方式：离线（LYF）
+[20:21:39.836] [Loader] 加载器 Loader Login Legacy 状态改变：Finished
+[20:21:39.848] [Launch] 登录加载已结束
+[20:21:39.848] [Loader] 加载器 登录 状态改变：Finished
+[20:21:39.849] [System] DPI：192，系统版本：10.0.23545.0，PCL 位置：C:\FKOS\Plain Craft Launcher 2.exe
+[20:21:39.901] [Loader] 加载器 DlClientList Mojang 状态改变：Loading
+[20:21:39.903] [Loader] 加载器 PCL 服务 状态改变：Loading
+[20:21:39.905] [Server] 正在连接到 PCL 服务器
+[20:21:39.909] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，超时 10000ms，要求 json
+[20:21:39.928] [Net] 获取网络结果：https://pcl2-server-1253424809.file.myqcloud.com/notice.cfg?sign=1695385300-173b79e1-0-cf94c42b3c0a6abf94a33d7956a68c34，超时 10000ms
+[20:21:40.046] [Server] 服务器公告：118|305|302|5，本地公告编号：117，需更新
+[20:21:40.058] [Loader] 加载器 源码获取 97# 状态改变：Loading
+[20:21:40.094] [Page] 需要下载联网自定义主页，当前版本：ver 0.0.4
+，检查源：https://cdn.wearclub.online/PCL/Custom.xaml.ini
+[20:21:40.094] [Net] 获取网络结果：https://cdn.wearclub.online/PCL/Custom.xaml，超时 10000ms
+[20:21:40.107] [Download] 1805801698_96 100#：开始，起始点 0，https://pcl2-server-1253424809.file.myqcloud.com/minecraft/download.json?sign=1695385300-31d9bd8f-0-b59e46c44e74361272099e5f48ac909c
+[20:21:40.144] [Download] 1805801698_96：文件大小 3896 B（3.8 K）
+[20:21:40.185] [Download] 1805801698_96：已完成，剩余文件 0
+[20:21:40.186] [Loader] 加载器 源码获取 97# 状态改变：Finished
+[20:21:40.194] [Net] 获取网络结果：https://pcl2-server-1253424809.file.myqcloud.com/notice.json?sign=1695385300-78ac5017-0-10d5731c82cdf0d4eb643bb1bb54b19f，超时 10000ms
+[20:21:40.212] [Loader] 加载器 PCL 服务 状态改变：Finished
+[20:21:40.257] [Page] 已联网下载自定义主页，内容长度：7582，来源：https://cdn.wearclub.online/PCL/Custom.xaml
+[20:21:40.259] [Page] 主页自定义数据来源：联网缓存文件
+[20:21:40.259] [Loader] 加载器 自定义主页获取 状态改变：Finished
+[20:21:40.287] [Page] 实例化：加载自定义主页 UI，最终内容长度：7808
+[20:21:40.824] [Animation] 两个动画帧间隔 297 ms
+[20:21:40.828] [Animation] 两个动画帧间隔 250 ms
+[20:21:44.561] [Control] 按下单选按钮：更多
+[20:21:44.614] [Loader] 加载器 Help Page 状态改变：Loading
+[20:21:44.624] [System] 获取资源：Help
+[20:21:44.635] [Control] 切换主要页面：Other, -1
+[20:21:44.772] [Help] 已解压内置帮助文件，目前状态：True
+[20:21:44.772] [Help] 已扫描 PCL 文件夹下的帮助文件，目前总计 0 条
+[20:21:44.776] [Help] 已扫描缓存文件夹下的帮助文件，目前总计 34 条
+[20:21:45.141] [Loader] 加载器 Help Page 状态改变：Finished
+[20:21:46.155] [Control] 按下单选列表项：百宝箱
+[20:21:50.452] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，超时 30000ms，要求 json
+[20:21:54.048] [Control] 按下按钮：开始下载
+[20:21:54.053] [Download] 自定义下载文件名：ubuntu-noi-v2.0.iso
+[20:21:54.053] [Download] 自定义下载文件目标：D:\Release 2.4.2\PCL\MyDownload\
+[20:21:54.054] [Loader] 加载器 自定义下载 (350)  状态改变：Loading
+[20:21:54.058] [Loader] 加载器 自定义下载文件：ubuntu-noi-v2.0.iso  状态改变：Loading
+[20:21:54.089] [Download] ubuntu-noi-v2.0.iso 370#：开始，起始点 0，https://noiresources.ccf.org.cn/ubuntu-noi-v2.0.iso
+[20:21:54.213] [Download] ubuntu-noi-v2.0.iso：文件大小 3631218688 B（3.38 G）
+[20:21:54.695] [Download] 速度下限已提升到 4.34 M
+[20:21:54.879] [Download] 速度下限已提升到 7.33 M
+[20:21:55.048] [Download] 速度下限已提升到 7.62 M
+[20:21:55.219] [Download] 速度下限已提升到 10 M
+[20:21:55.480] [Control] 按下附加按钮：下载管理
+[20:21:55.494] [Control] 切换主要页面：DownloadManager, 0
+[20:21:55.563] [Download] 速度下限已提升到 10 M
+[20:21:55.674] [Watcher] 新建下载管理卡片：自定义下载 (350) 
+[20:22:02.171] [Report] FPS 0, 动画 4, 下载中 1（11.1 M/s）
+[20:22:13.798] [Download] 速度下限已提升到 10 M
+[20:22:13.966] [Download] 速度下限已提升到 10.1 M
+[20:22:20.976] [Net] 获取网络结果：https://launchermeta.mojang.com/mc/game/version_manifest.json，超时 4000ms，要求 json
+[20:22:25.009] 加载线程 DlClientList Mojang (21) 发生运行时错误：连接服务器超时，已接收 0 B（https://launchermeta.mojang.com/mc/game/version_manifest.json）
+你的网络环境不佳，导致难以连接到服务器。请检查网络，多重试几次，或尝试使用 VPN。
+————————————
+详细错误信息：
+   在 PCL.ModNet.NetGetCodeByRequestOnce(String Url, Encoding Encode, Int32 Timeout, Boolean IsJson, String Accept)
+   在 PCL.ModNet.NetGetCodeByRequestRetry(String Url, Encoding Encode, String Accept, Boolean IsJson, String BackupUrl)
+   在 PCL.ModDownload.DlClientListMojangMain(LoaderTask`2 Loader)
+   在 PCL.ModLoader.LoaderTask`2._Closure$__12-0._Lambda$__0()
+错误类型：System.TimeoutException
+[20:22:25.009] [Loader] 加载器 DlClientList Mojang 状态改变：Failed
+[20:22:47.578] [Report] FPS 0, 动画 0, 下载中 1（11 M/s）
+[20:22:47.859] [Report] FPS 0, 动画 0, 下载中 1（11.7 M/s）
+[20:22:57.236] [Download] 速度下限已提升到 10.7 M
+[20:22:59.747] [Report] FPS 0, 动画 0, 下载中 1（11.6 M/s）
+[20:23:05.314] [Download] 速度下限已提升到 10.9 M
+[20:23:10.688] [Report] FPS 0, 动画 0, 下载中 1（8.1 M/s）
+[20:23:12.176] [Report] FPS 0, 动画 0, 下载中 1（3.37 M/s）
+[20:23:13.737] [Report] FPS 0, 动画 0, 下载中 1（10.1 M/s）
+[20:23:15.355] [Download] ubuntu-noi-v2.0.iso 582#：超时（6s）
+[20:23:16.599] [Download] ubuntu-noi-v2.0.iso 602#：超时（6s）
+[20:23:18.098] [Download] ubuntu-noi-v2.0.iso 622#：超时（6s）
+[20:23:19.101] [Download] ubuntu-noi-v2.0.iso 637#：超时（6s）
+[20:23:21.469] [Download] ubuntu-noi-v2.0.iso 659#：超时（6s）
+[20:23:21.469] [Download] ubuntu-noi-v2.0.iso 660#：超时（6s）
+[20:23:29.147] [Download] ubuntu-noi-v2.0.iso 524#：超时（6s）
+[20:24:11.672] [Download] 速度下限已提升到 10.9 M
+[20:24:17.329] [Report] FPS 0, 动画 0, 下载中 1（11.6 M/s）
+[20:24:34.585] [Download] 速度下限已提升到 10.9 M
+[20:25:07.313] [Download] 速度下限已提升到 11.1 M
+[20:25:11.087] [Download] 速度下限已提升到 11.8 M
+[20:25:11.606] [Download] ubuntu-noi-v2.0.iso 691#：超时（6s）
+[20:25:24.788] [Report] FPS 0, 动画 0, 下载中 1（12.2 M/s）
+[20:25:37.668] [Animation] 两个动画帧间隔 235 ms
+[20:26:15.549] [Download] ubuntu-noi-v2.0.iso 738#：超时（6s）
+[20:26:21.473] [Download] 速度下限已提升到 12.2 M
+[20:26:31.705] [Download] ubuntu-noi-v2.0.iso 770#：超时（6s）
+[20:26:36.814] [Download] ubuntu-noi-v2.0.iso 787#：超时（6s）
+[20:27:03.562] [Download] ubuntu-noi-v2.0.iso 901#：超时（6s）
+[20:27:05.519] [Download] ubuntu-noi-v2.0.iso 740#：出错，由于速度过慢断开链接，下载 614 B，消耗 1234 ms。
+   在 PCL.ModNet.NetFile.Thread(NetThread Info)
+错误类型：System.TimeoutException
+[20:27:16.304] [Download] ubuntu-noi-v2.0.iso：已完成，剩余文件 0
+[20:27:16.304] [Loader] 加载器 自定义下载文件：ubuntu-noi-v2.0.iso  状态改变：Finished
+[20:27:16.304] [Loader] 加载器 自定义下载 (350)  状态改变：Finished
+[20:27:16.346] [UI] 弹出提示：自定义下载 (350) 完成！
+[20:27:16.623] [Control] 切换主要页面：Other, -1
+[20:29:03.347] [Control] 按下按钮：打开文件夹
+[20:29:14.675] [Control] 按下图标按钮：BtnTitleClose
+[20:29:14.681] [System] 收到关闭指令
+[20:29:14.950] [System] 程序已退出，返回值：Success
